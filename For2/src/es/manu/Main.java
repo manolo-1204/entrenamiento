@@ -14,8 +14,8 @@ public class Main {
 
         for(int i = 0; i < n; i++) {
             num += (i + 1);
-            //System.out.println(i);
+            System.out.println("El resultado es " + num);
         }
-        System.out.println("El resultado es " + num);
+        //System.out.println("El resultado es " + num);
     }
 }
