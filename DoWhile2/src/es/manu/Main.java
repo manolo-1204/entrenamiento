@@ -15,7 +15,7 @@ public class Main {
                 numero = entrada.nextInt();
             } while (numero < 0);
             System.out.println("El número " + (i + 1) + " es:" + numero);
-            System.out.println("=========================");
+            System.out.println("===========================");
         }
 
     }
