@@ -5,13 +5,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int num;
+        int numero = 0, suma = 0;
         Scanner entrada = new Scanner(System.in);
 
         do {
-            System.out.print("Dame un número (- para parar): ");
-            num = entrada.nextInt();
-        } while (num >= 0);
+            suma += numero;
+            System.out.print("Dame un number (- para para): ");
+            numero = entrada.nextInt();
+        } while (numero >= 0);
+
+        System.out.println(suma);
 
         entrada.close();
     }
