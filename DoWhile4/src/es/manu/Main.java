@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int numero, count = 0;
+        int numero;
         Scanner entrada = new Scanner(System.in);
 
-        for (int i = 1; i <= 5; i ++) {
+        for (int i = 1; i <= 10; i ++) {
             System.out.println("Numero " + i + ":");
             System.out.println("====================================================");
             do {
