@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         int[] numeros1 = new int[5], numeros2 = new int[5];
-        int contador = 0;
         boolean sonIguales = true;
         Scanner entrada = new Scanner(System.in);
 
